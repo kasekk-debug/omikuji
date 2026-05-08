@@ -135,3 +135,14 @@ button:active {
   color: #7a6a6a;
   font-size: 14px;
 }
+
+
+
+@media (max-width: 600px) {
+  .lucky {
+    text-shadow:
+      0 0 3px gold,
+      0 0 6px orange;
+    transform: scale(1.05);
+  }
+}
