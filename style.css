@@ -118,13 +118,13 @@ button:active {
   box-shadow: 0 1px #7a0000;
   transform: translateY(3px);
 }
-
 .lucky {
-  color: gold;
+  color: #ffd700;
+  -webkit-text-stroke: 1px #b9b006;
   text-shadow:
-    0 0 10px gold,
-    0 0 20px orange;
-    transform: scale(1.2);
+    0 0 10px rgba(255,215,0,0.7),
+    0 0 20px rgba(255,140,0,0.5);
+  transform: scale(1.1);
 }
 
 /* 日付 */
@@ -134,15 +134,4 @@ button:active {
   margin-top: 24px;
   color: #7a6a6a;
   font-size: 14px;
-}
-
-
-
-@media (max-width: 600px) {
-  .lucky {
-    text-shadow:
-      0 0 3px gold,
-      0 0 6px orange;
-    transform: scale(1.05);
-  }
 }
