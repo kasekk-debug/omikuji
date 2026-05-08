@@ -35,6 +35,8 @@ h1 i {
  }
 
 
+/* main */
+
 main {
   width: 240px;
   margin: 32px auto;
@@ -125,11 +127,22 @@ button:active {
     transform: scale(1.2);
 }
 
-
+/* 日付 */
 
 .date {
   text-align: center;
   margin-top: 24px;
   color: #7a6a6a;
   font-size: 14px;
+}
+
+
+
+@media (max-width: 600px) {
+  .lucky {
+    text-shadow:
+      0 0 3px gold,
+      0 0 6px orange;
+    transform: scale(1.05);
+  }
 }
