@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじアプリ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <i class="bi bi-flower1"></i>
+    
+      <span>今日のおみくじ</span>
+    
+      <i class="bi bi-flower1"></i>
+    </h1>
+    <p>ボタンを押して今日の運勢を占おう！</p>
+  </header>
+  <main>
+    <section>
+      <h2>運勢</h2>
+      <p id="result">？</p>
+      <p class="deco">✿ ❀ ✿</p>
+
+      <p id="message"></p>
+
+    </section>
+
+    <button id="btn">おみくじを引く</button>
+
+    <p class="date" id="date"></p>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
